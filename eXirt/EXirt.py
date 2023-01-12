@@ -53,10 +53,10 @@ from sklearn import metrics
 
 
 if os.path.isfile(os.path.join(os.getcwd(),'decodIRT_MLtIRT.py')) == False:
-                  wget.download('https://raw.githubusercontent.com/josesousaribeiro/eXirt-XAI-Benchmark/main/decodIRT/decodIRT_MLtIRT.py')
+                  wget.download('https://raw.githubusercontent.com/josesousaribeiro/eXirt/main/eXirt/decodIRT_MLtIRT.py')
 
 if os.path.isfile(os.path.join(os.getcwd(),'decodIRT_analysis.py')) == False:
-                  wget.download('https://raw.githubusercontent.com/josesousaribeiro/eXirt-XAI-Benchmark/main/decodIRT/decodIRT_analysis.py')
+                  wget.download('https://raw.githubusercontent.com/josesousaribeiro/eXirt/main/eXirt/decodIRT_analysis.py')
 
 
 
@@ -1069,7 +1069,10 @@ def main():
     explainer = EXirt()
     global_explanation_attributes, global_explanation_attributes_scores = explainer.explainRankByEXirt(model, X_train, X_test, y_train, y_test,dataset_name)
     
+    print('This is a global rank of feature relevance by: '+ dataset_name)
     print(global_explanation_attributes_scores)
+    print('Note: the attributes at the top of the rank are the most relevant to explain the model.')
+    
 if __name__ == "__main__":
     main()
 
