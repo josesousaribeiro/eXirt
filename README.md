@@ -38,13 +38,17 @@ Ultimately, figure 1 (I) and (J), an explanation rank is generated where each at
 
 ```python
 pip install eXirt
-``
-
+```
 
 # Import in code
+
+```python
 from eXirt import eXirt
+```
 
 # Create explainer
 
+```python
 explainer = eXirt.eXirt()
 global_explanation_attributes, global_explanation_attributes_scores = explainer.explainRankByEXirt(model, X_train, X_test, y_train, y_test,dataset_name)
+```
