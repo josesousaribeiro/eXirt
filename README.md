@@ -59,11 +59,10 @@ Note:
 
 # Relevance rank 
 
-The result of running the eXirt is an attribute relevance rank, sorted in ascending order with respect to the calculated skill. The lower the ability of an attribute, the greater its relevance for explaining the model.
-
-In figure 2 is presented for the *phoneme* dataset.
+The result of running the eXirt is an attribute relevance rank, sorted in ascending order with respect to the calculated skill. The lower the ability of an attribute, the greater its relevance for explaining the model. In figure 2 is presented for the *phoneme* dataset.
 
 ![alt text](https://github.com/josesousaribeiro/eXirt/blob/main/figs/eXirt_phoneme.png)
+
 **Figure 2 - Result of eXirt to *phoneme* dataset.**
 
 
