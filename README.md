@@ -69,4 +69,15 @@ The result of running the eXirt is an attribute relevance rank, sorted in ascend
 
 **Figure 2 - Result of eXirt to *phoneme* dataset.**
 
+# Cite this work
 
+You can cite the package using the following bibtex entry:
+
+```latex
+@article{ribeiro2022global,
+  title={Global Explanation of Tree-Ensembles Models Based on Item Response Theory},
+  author={Ribeiro, Jos{\'e} and Cardoso, Lucas and Silva, Ra{\'\i}ssa and Cirilo, Vitor and Carneiro, N{\'\i}kolas and Alves, Ronnie},
+  journal={arXiv preprint arXiv:2210.09933},
+  year={2022}
+}
+```
