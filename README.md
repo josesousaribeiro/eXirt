@@ -26,7 +26,7 @@ The creation of the response matrix, figure 1 (E) and (F), contains the answers 
 The implementation of the IRT used was [*Cardoso, L (2020)*](https://github.com/LucasFerraroCardoso/IRT_OpenML), called decodIRT, in a code developed exclusively for the purpose of this paper, as the code first receives the answer matrix, performs the calculations to generate the item parameter values --- different algorithms can be used to calculate the IRT (such as: ternary, dichotomous, fibonacci, golden, brent, bounded or golden2) using [*catsim*](https://github.com/douglasrizzo/catsim) --- and, after this step, generates the rank of most skilled classifiers, figure  1 (G).
 
 ![alt text](https://github.com/josesousaribeiro/eXirt/blob/main/figs/eXirt_prepross.png)
-**Figure 1 - Process of the eXirt**
+**Figure 1 - Process of the eXirt.**
 
 Among the new features of *decordIRT* is a new score calculation that involves the calculated ability of all respondents and their respective hits and misses, called Total Score. Total Score can be understood as an adaptation of the *True-Score*, whereby the score is calculated by summing up all the hit probabilities for the test items. However, in cases where respondents have a very close ability, the True-Score result can be very similar or even equal, since only the hit chance is considered. To avoid equal score values and to give more robustness to the models' final score, the Total Score also considers the respondent's probability of error, given by: $1- P(U_{ij} = 1\vert\theta_{j})$. Thus, every time the model gets it right, the hit probability is added, and if the model gets it wrong, the error probability is subtracted.
 
@@ -34,12 +34,12 @@ The Total Score resulting from the execution of decodIRT is not yet the final ra
 
 Ultimately, figure 1 (I) and (J), an explanation rank is generated where each attribute appears with a skill value. In this case, the lower the ability values, the more the attribute explains the analyzed model.
 
-
-
-
 # Installation
 
+```python
 pip install eXirt
+``
+
 
 # Import in code
 from eXirt import eXirt
