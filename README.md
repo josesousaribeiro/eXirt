@@ -17,7 +17,7 @@ Ronnie Alves (Leader) - site: https://sites.google.com/site/alvesrco
 
 # The eXirt
 
-The measure Explainable based on Item Response Theory - \textit{eXirt} is one of the XAI measures performed in the developed benchmark. This measure is a new proposal to generate explanations for tree-ensemble models that is based on the generation of attribute relevance ranks by using item response theory.
+The measure Explainable based on Item Response Theory - *eXirt* is one of the XAI measures performed in the developed benchmark. This measure is a new proposal to generate explanations for tree-ensemble models that is based on the generation of attribute relevance ranks by using item response theory.
 
 Just like other XAI measures, \textit{eXirt} only uses the training data, test data, the model itself together with its outputs, figure \ref{fig_metodologia_eXirt} (A). Initially, the test data and the model to be explained are passed on to the \textit{eXirt}; \ref{fig_metodologia_eXirt} (B) the tool then creates the so-called ``loop of models,'' shown in figure \ref{fig_metodologia_eXirt} (C) and (D), which is a basic iterative process relevant for the creation of the table with the respondents' answers used in the IRT run, figure \ref{fig_metodologia_eXirt} (E) and (F).
 
