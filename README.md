@@ -26,7 +26,7 @@ The creation of the response matrix, figure 1 (E) and (F), contains the answers 
 The implementation of the IRT used was [*Cardoso, L (2020)*](https://github.com/LucasFerraroCardoso/IRT_OpenML), called decodIRT, in a code developed exclusively for the purpose of this paper, as the code first receives the answer matrix, performs the calculations to generate the item parameter values --- different algorithms can be used to calculate the IRT (such as: ternary, dichotomous, fibonacci, golden, brent, bounded or golden2) using [*catsim*](https://github.com/douglasrizzo/catsim) --- and, after this step, generates the rank of most skilled classifiers, figure  1 (G).
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/josesousaribeiro/eXirt/blob/main/figs/eXirt_prepross.png">
+  <img width="800" height="500" src="https://github.com/josesousaribeiro/eXirt/blob/main/figs/eXirt_prepross.png">
 </p>
 **Figure 1 - Process of the eXirt.**
 
