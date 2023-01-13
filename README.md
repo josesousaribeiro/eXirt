@@ -50,5 +50,20 @@ from eXirt import eXirt
 
 ```python
 explainer = eXirt.eXirt()
-global_explanation_attributes, global_explanation_attributes_scores = explainer.explainRankByEXirt(model, X_train, X_test, y_train, y_test,dataset_name)
+global_explanation_attributes, global_explanation_attributes_scores = 
+      explainer.explainRankByEXirt(model, X_train, X_test, y_train, y_test,dataset_name)
 ```
+Note:
+*global_explanation_attributes = name of relevance features*
+*global_explanation_attributes_scores = rank of relevance features with score*
+
+# Relevance rank 
+
+The result of running the eXirt is an attribute relevance rank, sorted in ascending order with respect to the calculated skill. The lower the ability of an attribute, the greater its relevance for explaining the model.
+
+In figure 2 is presented for the *phoneme* dataset.
+
+![alt text](https://github.com/josesousaribeiro/eXirt/blob/main/figs/eXirt_phoneme.png)
+**Figure 2 - Result of eXirt to *phoneme* dataset.**
+
+
