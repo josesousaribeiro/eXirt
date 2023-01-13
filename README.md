@@ -31,10 +31,9 @@ The Total Score resulting from the execution of decodIRT is not yet the final ra
 
 Ultimately, figure \ref{fig_metodologia_eXirt} (I) and (J), an explanation rank is generated where each attribute appears with a skill value. In this case, the lower the ability values, the more the attribute explains the analyzed model. Equation $T_{(f,r)}$ is presented, which represents the processes performed by \textit{eXirt}, equation \ref{eqn:exirt_sigma}. 
 
-\begin{equation}
-\label{eqn:total_score}
-t_l = \sum_{i=1}^{i'} P(U_{ij} = 1\vert\theta_{j}) - \sum_{i=1}^{i''} 1 - P(U_{ij} = 1\vert\theta_{j})
-\end{equation}
+
+$t_l = \sum_{i=1}^{i'} P(U_{ij} = 1\vert\theta_{j}) - \sum_{i=1}^{i''} 1 - P(U_{ij} = 1\vert\theta_{j})$
+
 
 # Installation
 
