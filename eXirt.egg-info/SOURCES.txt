@@ -1,0 +1,6 @@
+setup.py
+eXirt.egg-info/PKG-INFO
+eXirt.egg-info/SOURCES.txt
+eXirt.egg-info/dependency_links.txt
+eXirt.egg-info/top_level.txt
+pyexirt/eXirt.py
