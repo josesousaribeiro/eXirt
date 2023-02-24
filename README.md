@@ -40,6 +40,8 @@ Ultimately, figure 1 (I) and (J), an explanation rank is generated where each at
 
 ```python
 pip install eXirt
+!wget https://raw.githubusercontent.com/josesousaribeiro/eXirt-XAI-Benchmark/main/decodIRT/decodIRT_MLtIRT.py
+!wget https://raw.githubusercontent.com/josesousaribeiro/eXirt-XAI-Benchmark/main/decodIRT/decodIRT_analysis.py
 ```
 
 # Import in code
