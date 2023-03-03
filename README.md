@@ -40,6 +40,8 @@ Ultimately, figure 1 (I) and (J), an explanation rank is generated where each at
 
 You must have installed the R environment from the project link: https://cloud.r-project.org/.
 
+After installing the R environment, just run the command below in a python environment and you will have your installation normally.
+
 ```python
 pip install eXirt
 !wget https://raw.githubusercontent.com/josesousaribeiro/eXirt-XAI-Benchmark/main/decodIRT/decodIRT_MLtIRT.py
