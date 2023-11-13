@@ -38,15 +38,28 @@ Ultimately, figure 1 (I) and (J), an explanation rank is generated where each at
 
 # Installation
 
-You must have installed the R environment from the project link: https://cloud.r-project.org/.
+You must have installed the R environment in local executions. Then install from the project link: https://cloud.r-project.org/.
 
-After installing the R environment, just run the command below in a python environment and you will have your installation normally.
+Now, just run the commands below in a python environment and you will have your installation normally.
+
+Installation of the "catsim" dependency.
 
 ```python
-pip install eXirt
+pip install catsim
+```
+Installation of the "decodIRT" dependency.
+```python
 !wget https://raw.githubusercontent.com/josesousaribeiro/eXirt-XAI-Benchmark/main/decodIRT/decodIRT_MLtIRT.py
 !wget https://raw.githubusercontent.com/josesousaribeiro/eXirt-XAI-Benchmark/main/decodIRT/decodIRT_analysis.py
 ```
+Installation of the "eXirt"
+
+```python
+pip install eXirt
+```
+
+
+
 
 # Import in code
 
