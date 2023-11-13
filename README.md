@@ -76,6 +76,7 @@ global_explanation_attributes, global_explanation_attributes_scores =
 ```
 Note:
 *global_explanation_attributes = name of relevance features*
+
 *global_explanation_attributes_scores = rank of relevance features with score*
 
 # Relevance rank 
