@@ -75,6 +75,7 @@ global_explanation_attributes, global_explanation_attributes_scores =
       explainer.explainRankByEXirt(model, X_train, X_test, y_train, y_test,dataset_name)
 ```
 Note:
+
 *global_explanation_attributes = name of relevance features*
 
 *global_explanation_attributes_scores = rank of relevance features with score*
