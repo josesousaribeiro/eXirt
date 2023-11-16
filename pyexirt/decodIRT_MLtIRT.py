@@ -113,7 +113,7 @@ def main(arg_dir = 'output',respMatrix=None,arg_url = None):
     #Inicia o calculo do IRT para todos os datasets
     for f in range(len(list_data_irt)):
         
-        print("Calculando os parametros do IRT para o dataset: ",list_data_irt[f])
+        #print("Calculando os parametros do IRT para o dataset: ",list_data_irt[f])
         
         #Calcula os parametros do IRT com o pacote ltm do R
         if respMatrix == None:

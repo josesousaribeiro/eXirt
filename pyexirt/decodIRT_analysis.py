@@ -103,8 +103,8 @@ def plotAll(dict_tmp, out, bins = None, save = False):
         for param in parameters:
             plothist(dict_tmp,out,param,dataset,bins = bins,save = save)
     
-    if save:
-        print('\nTodos os histogramas foram salvos \o/\n')
+    #if save:
+    #    print('\nTodos os histogramas foram salvos \o/\n')
 
 def plothist(dict_tmp,parameter,dataset, out,bins = None,save = False):
     """
@@ -238,7 +238,7 @@ def printFreq(tmp_dict, save = False):
                 file.write('{:40} {:10.0%}'.format(p[0],p[1])+'\n')
             file.write('-'*60+'\n')
         file.close() 
-        print("As frequencias dos parametros de item foram salvas \o/\n")
+        #print("As frequencias dos parametros de item foram salvas \o/\n")
     else:
         for i in range(len(name)):
             text += 'Porcentagem de itens com valores altos do parametro '+name[i]+'\n'
@@ -379,8 +379,8 @@ def thetaAllClfEstimate(dict_tmp, irt_dict, irt_resp_dict, list_theta,out,precis
             p[parameter] = thetaClfEstimate(dict_tmp,irt_dict,irt_resp_dict,dataset,parameter,list_theta, out,precision=precision,metodo=metodo,save = save)
         dict_theta[dataset] = p
         
-    if save:
-        print('Todos os valores de Theta foram salvos \o/')
+    #if save:
+    #    print('Todos os valores de Theta foram salvos \o/')
         
     return dict_theta
         
@@ -560,8 +560,8 @@ def calcAllPro(icc_dict,dict_tmp, accur,out,irt_resp_dict,missing,save = False):
     for dataset in datasets:
          calcPro(icc_dict,dict_tmp,dataset,accur, out,irt_resp_dict,missing,save = save)
          
-    if save:
-        print('\nOs scores dos classificadores para todos os datasets foram salvos \o/\n')
+    #if save:
+    #    print('\nOs scores dos classificadores para todos os datasets foram salvos \o/\n')
     
 def plotCCC(icc_dict,dict_tmp,dataset,parameter, out,save = False):
     """
