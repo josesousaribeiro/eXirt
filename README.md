@@ -94,10 +94,12 @@ The result of running the eXirt is an attribute relevance rank, sorted in ascend
 
 You can cite the package using the following bibtex entry:
 
+```latex
+
 @article{ribeiro4572173explanations,
   title={Explanations Based on Item Response Theory (Exirt): A Model-Specific Method to Explain Tree-Ensemble Model in Trust Perspective},
   author={Ribeiro Filho, Jos{\'e} de Sousa and Cardoso, Lucas Felipe Ferraro and Silva, Ra{\'\i}ssa Lorena Silva da and Carneiro, Nikolas Jorge Santiago and Santos, Vitor Cirilo Araujo and Alves, Ronnie Cley de Oliveira},
   journal={Available at SSRN 4572173}
 }
 
-```
+````
