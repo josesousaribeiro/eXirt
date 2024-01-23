@@ -44,17 +44,20 @@ Now, just run the commands below in a python environment and you will have your 
 
 Installation of the "catsim" dependency.
 
-```python
+```Nushell
 pip install catsim
 ```
+
 Installation of the "decodIRT" dependency.
-```python
+
+```Nushell
 !wget https://raw.githubusercontent.com/josesousaribeiro/eXirt-XAI-Benchmark/main/decodIRT/decodIRT_MLtIRT.py
 !wget https://raw.githubusercontent.com/josesousaribeiro/eXirt-XAI-Benchmark/main/decodIRT/decodIRT_analysis.py
 ```
+
 Installation of the "eXirt"
 
-```python
+```Nushell
 pip install eXirt
 ```
 
@@ -63,13 +66,13 @@ pip install eXirt
 
 # Import in code
 
-```python
+```Python
 from pyexirt.eXirt import Explainer
 ```
 
 # Create explainer
 
-```python
+```Python
 explainer = Explainer()
 global_explanation_attributes, global_explanation_attributes_scores =
       explainer.explainRankByEXirt(model, X_train, X_test, y_train, y_test,dataset_name)
@@ -94,7 +97,7 @@ The result of running the eXirt is an attribute relevance rank, sorted in ascend
 
 You can cite the package using the following bibtex entry:
 
-```latex
+```TeX
 
 @article{ribeiro4572173explanations,
   title={Explanations Based on Item Response Theory (Exirt): A Model-Specific Method to Explain Tree-Ensemble Model in Trust Perspective},
