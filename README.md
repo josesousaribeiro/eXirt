@@ -93,6 +93,17 @@ The result of running the eXirt is an attribute relevance rank, sorted in ascend
 
 **Figure 2 - Result of eXirt to *phoneme* dataset.**
 
+
+# Item Characteristic Curve of Models
+
+This is an example of the Item Characteristic Curve for 4 different models.
+Note, the generated item parameter values are condensed by their averages in the thick black line.
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/josesousaribeiro/eXirt/blob/main/figs/icc_example.png">
+</p>
+
+
 # Cite this work
 
 You can cite the package using the following bibtex entry:
