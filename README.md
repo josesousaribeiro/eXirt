@@ -100,7 +100,7 @@ This is an example of the Item Characteristic Curve for 4 different models.
 Note, the generated item parameter values are condensed by their averages in the thick black line.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/josesousaribeiro/eXirt/blob/main/figs/icc_example.png">
+  <img width="560" height="400" src="https://github.com/josesousaribeiro/eXirt/blob/main/figs/icc_example.png">
 </p>
 
 
