@@ -99,10 +99,14 @@ You can cite the package using the following bibtex entry:
 
 ```TeX
 
-@article{ribeiro4572173explanations,
-  title={Explanations Based on Item Response Theory (Exirt): A Model-Specific Method to Explain Tree-Ensemble Model in Trust Perspective},
-  author={Ribeiro Filho, Jos{\'e} de Sousa and Cardoso, Lucas Felipe Ferraro and Silva, Ra{\'\i}ssa Lorena Silva da and Carneiro, Nikolas Jorge Santiago and Santos, Vitor Cirilo Araujo and Alves, Ronnie Cley de Oliveira},
-  journal={Available at SSRN 4572173}
+@article{de2024explanations,
+  title={Explanations based on Item Response Theory (eXirt): A model-specific method to explain tree-ensemble model in trust perspective},
+  author={de Sousa Ribeiro Filho, Jos{\'e} and Cardoso, Lucas Felipe Ferraro and da Silva, Ra{\'\i}ssa Lorena Silva and Carneiro, Nikolas Jorge Santiago and Santos, Vitor Cirilo Araujo and de Oliveira Alves, Ronnie Cley},
+  journal={Expert Systems with Applications},
+  volume={244},
+  pages={122986},
+  year={2024},
+  publisher={Elsevier}
 }
 
 ````
